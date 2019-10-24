@@ -23,6 +23,8 @@ class MusicLibraryController
     case input 
     when "list songs"
       list songs 
+    end 
+    
   end 
 
   def list_songs
