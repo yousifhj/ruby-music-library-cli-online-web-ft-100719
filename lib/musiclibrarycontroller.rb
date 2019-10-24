@@ -29,10 +29,10 @@ class MusicLibraryController
       list_genres
     when "list artist"
       list_songs_by_artist
-    end 
+   
     when "list genre"
       list_songs_by_genre
-    
+    end 
   end 
 
   def list_songs
