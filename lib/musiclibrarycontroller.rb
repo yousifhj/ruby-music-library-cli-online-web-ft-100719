@@ -19,9 +19,10 @@ class MusicLibraryController
     puts "To quit, type 'exit'."
     puts "What would you like to do?"
     input = gets.strip
- 
   end 
 
+  def list_songs
+    Song.all.sort {|a,b| a.name 
 end  
 
 end
