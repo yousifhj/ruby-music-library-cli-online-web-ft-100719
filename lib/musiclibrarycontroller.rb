@@ -27,7 +27,8 @@ class MusicLibraryController
       list_artists
     when "list genres"
       list_genres
-      
+    when "list artist"
+      list_song_by_artist
     end 
     
   end 
