@@ -22,7 +22,7 @@ class MusicLibraryController
     
     case input
     when 
-    else 
+
 
   
   end
