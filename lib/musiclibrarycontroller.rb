@@ -64,6 +64,10 @@ class MusicLibraryController
     input = gets.chomp.to_i
     
     songs = Song.all 
+    
+    if (1..songs.length).inclues(input)
+      song = Song.all.sort{ |a, b| a.name <=> b.name} 
+    end
   end 
   
 end 
