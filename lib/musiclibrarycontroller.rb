@@ -20,7 +20,7 @@ class MusicLibraryController
     puts "What would you like to do?"
     input = gets.strip
     
-    case 
+    case input
   else 
   
   end
