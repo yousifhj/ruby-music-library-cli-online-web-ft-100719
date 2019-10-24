@@ -21,7 +21,7 @@ class MusicLibraryController
     input = gets.strip
     
     case input
-  else 
+
   
   end
 end 
