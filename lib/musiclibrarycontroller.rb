@@ -25,5 +25,5 @@ class MusicLibraryController
     Song.all.sort {|a,b| a.name <=> b.name}.each.with_index(1) do |song, x|
   end 
  
+end 
 
-end
